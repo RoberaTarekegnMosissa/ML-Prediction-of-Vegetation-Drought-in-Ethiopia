@@ -1,0 +1,45 @@
+# Large data files
+
+data/raw/*
+
+data/processed/*
+
+
+
+# Preserve the directory structure
+
+!data/raw/.gitkeep
+
+!data/processed/.gitkeep
+
+
+
+# Geospatial and scientific data
+
+*.tif
+
+*.tiff
+
+*.nc
+
+*.nc4
+
+*.grib
+
+*.grb
+
+*.h5
+
+*.hdf5
+
+*.zarr/
+
+
+
+# Python temporary files
+
+__pycache__/
+
+*.pyc
+
+.ipynb_checkpoints/
