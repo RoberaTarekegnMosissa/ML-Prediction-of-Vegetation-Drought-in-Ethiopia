@@ -1,0 +1,4 @@
+split,split_code,valid_samples,drought_samples,non_drought_samples,drought_percentage
+training,0,1906905,269960,1636945,14.156971637286597
+validation,1,341514,22838,318676,6.687280755693764
+testing,2,455322,42261,413061,9.281563377126517

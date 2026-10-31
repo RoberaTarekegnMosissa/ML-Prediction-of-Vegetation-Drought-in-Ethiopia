@@ -1,0 +1,15 @@
+numpy
+
+pandas
+
+xarray
+
+netCDF4
+
+rasterio
+
+matplotlib
+
+scikit-learn
+
+xgboost
