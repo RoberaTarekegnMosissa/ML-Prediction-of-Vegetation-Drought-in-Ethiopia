@@ -43,3 +43,10 @@ __pycache__/
 *.pyc
 
 .ipynb_checkpoints/
+
+
+# Trained model binaries
+
+results/models/
+
+*.joblib

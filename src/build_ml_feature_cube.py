@@ -62,7 +62,7 @@ CLIMATE_VARIABLES = [
 
 ]
 
-
+PREDICTOR_VARIABLES = CLIMATE_VARIABLES + ["ndvi_z"]
 
 LAGS = [1, 2, 3]
 
@@ -156,7 +156,7 @@ feature_names = []
 
 
 
-for variable in CLIMATE_VARIABLES:
+for variable in PREDICTOR_VARIABLES:
 
     for lag in LAGS:
 
